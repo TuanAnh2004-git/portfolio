@@ -10,7 +10,7 @@ import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div className="bg-[#1f0127] text-white min-h-screen">
         <Navbar />
         <Routes>

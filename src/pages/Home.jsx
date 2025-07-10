@@ -65,7 +65,7 @@ const Home = () => {
           hover:scale-105 hover:shadow-cyan-400/50"
         >
           <img
-            src="images/avatar.jpg"
+            src={`${process.env.PUBLIC_URL}/images/avatar.jpg`}
             alt="Avatar"
             className="w-full h-full object-cover"
           />
